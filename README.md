@@ -1,11 +1,11 @@
-About r-ttdo
-============
+About r-ttdo-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ttdo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/eddelbuettel/ttdo/, https://dirk.eddelbuettel.com/code/ttdo.html
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ttdo-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'tinytest' package offers a light-weight zero-dependency unit-testing framework to which this package adds support of the 'diffobj' package for 'diff'-style comparison of R objects.
 
