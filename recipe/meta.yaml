@@ -1,4 +1,4 @@
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ttdo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ttdo/ttdo_{{ version }}.tar.gz
-  sha256: 7776130875037c68bce5251de7f56b2ddeebb6a8b9b9eedac78b85d83fe11844
+  sha256: 8324a70a582c3f2c8d14a8d6db63090fd685c2ba178da661ddb705caddc7592e
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
