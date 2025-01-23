@@ -24,11 +24,15 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-base64enc
     - r-diffobj
+    - r-tinysnapshot >=0.0.8
     - r-tinytest >=1.4.1
   run:
     - r-base
+    - r-base64enc
     - r-diffobj
+    - r-tinysnapshot >=0.0.8
     - r-tinytest >=1.4.1
 
 test:
