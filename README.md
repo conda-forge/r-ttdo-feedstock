@@ -7,7 +7,7 @@ Home: https://github.com/eddelbuettel/ttdo/, https://dirk.eddelbuettel.com/code/
 
 Package license: GPL-2.0-or-later
 
-Summary: The 'tinytest' package offers a light-weight zero-dependency unit-testing framework to which this package adds support of the 'diffobj' package for 'diff'-style comparison of R objects.
+Summary: The 'tinytest' package offers a light-weight zero-dependency unit-testing framework to which this package adds support via the 'diffobj' package for 'diff'-style textual comparison of R objects, as well as via 'tinysnapshot' package for visual differences in plots.
 
 Current build status
 ====================
@@ -143,6 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 * [@jdblischak](https://github.com/jdblischak/)
 
